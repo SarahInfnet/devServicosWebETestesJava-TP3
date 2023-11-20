@@ -1,6 +1,6 @@
 package br.com.Infnet.jogo;
 
-class Heroi extends Personagem {
+public class Heroi extends Personagem {
   private String heroi;
 
   public Heroi(String heroi, int pontosVida, int forca, int defesa, int agilidade, int[] fatorDano) {

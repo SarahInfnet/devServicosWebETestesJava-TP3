@@ -12,7 +12,7 @@ public class RelatorioJogador  {
     private LinkedList<RelatorioPartida> relatorioJogador = new LinkedList<RelatorioPartida>();
 
     public RelatorioJogador(String nickname) throws FileNotFoundException, IOException {
-        FileReader leitor = new FileReader("../temp/" + nickname + ".csv");
+        FileReader leitor = new FileReader("./temp/" + nickname + ".csv");
         BufferedReader arquivo = new BufferedReader(leitor);
 
         arquivo.readLine();
